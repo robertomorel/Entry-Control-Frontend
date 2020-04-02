@@ -1,0 +1,65 @@
+.logon-container {
+    margin: 0px auto 0;
+    margin-top: 10px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logon-container section.form {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    /* Flex-box layout */
+    flex-direction: column;
+    /* Ficar um elemento abaixo do outro */
+    align-items: center;
+    /* Alinhado ao centro */
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    background-color: rgba(62, 150, 148, 0.3);
+    border-radius: 12px;
+}
+
+.logo {
+    margin-bottom: 10px;
+    width: 40%;
+    height: 40%;
+    opacity: 80%;
+}
+
+.logon-container section.form form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logon-container section.form form h1 {
+    font-size: 30px;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+
+.logon-container section.form form a {
+    display: flex;
+    align-items: center; 
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+    margin-right: 60%;
+    margin-bottom: 15px;
+}
+
+.logon-container section.form form a:hover {
+    opacity: 0.8;
+}
+
+/* Fontes de ícones com React Icons */
+.logon-container section.form form a svg {
+    margin-right: 8px;
+}

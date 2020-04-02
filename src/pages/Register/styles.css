@@ -1,0 +1,89 @@
+.logo {
+    width: 40%;
+    height: 40%;
+    opacity: 80%;
+}
+
+.register-container {
+    margin: 0px auto 0;
+    margin-top: 10px;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-container .content {
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    background-color: rgba(62, 150, 148, 0.3);
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.register-container .content section h1 {
+    margin: 64px 0 32px;
+    font-size: 30px;
+}
+
+.register-container .content section p {
+    font-size: 18px;
+    color: #41414d;
+    line-height: 32px;
+    margin-right: 10px;
+    text-shadow: 0.3px 0.3px 0px white;
+}
+
+.register-container .content a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+    margin-right: 50%;
+    margin-bottom: 5px; 
+}
+
+.register-container .content form {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-container .content form input {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.register-container .content form .inputPassword {
+    display: flex;
+    width: 103%;
+}
+
+.register-container .content form .inputPassword input + input {
+    margin-left: 8px;
+}
+
+.register-container .content form .inputPos {
+    display: flex;
+    width: 103%;
+}
+
+.register-container .content form .inputPos input + input {
+    margin-left: 8px;
+}
